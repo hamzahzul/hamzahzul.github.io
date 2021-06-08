@@ -1,0 +1,101 @@
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <title>Feedbackpage</title>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+  <header>
+      <a href="index.html" class="logo"> <3home </a>
+    <ul>
+      <li><a href="ViewPortfolio.html">View Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="feedback.html" class="active">Feedback</a></li>
+    </ul>
+  </header><br><br><br><br>
+
+<form>
+<section class="detail">
+  <div class="email">
+    <h2>Insert your E-mail :</h2>
+    <input type="text" id="fname" name="fname"><br>
+
+  </div>
+
+  <div class="genders">
+    <h2>Genders :</h2>
+    <form>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    </form>
+  </div>
+
+  <div class="age">
+    <h2 for="qge">Choose age :</h2>
+    <select name="ages" id="age">
+    <option value="-">--------</option>
+    <option value="pschoolstudent">13-17</option>
+    <option value="cstudent">18-24</option>
+    <option value="adult">25-40</option>
+    <option value="old">40 and above</option>
+    </select>
+  </div>
+
+  <div class="state">
+    <h2 for="state">Choose state:</h2>
+    <select name="state" id="state">
+    <option >--------</option>
+    <option >Selangor</option>
+    <option >Johor</option>
+    <option >Kelantan</option>
+    <option >Terengganu</option>
+    <option >N.sembilan</option>
+    <option >Sabah</option>
+    <option >Sarawak</option>
+    <option >melaka</option>
+    <option >Pahang</option>
+    <option >Penang</option>
+    </select>
+  </div>
+
+  <div class="">
+    <h2>Portfolio Survey</h2>
+    <input type="checkbox" id="statisfy" name="statisfy" >
+    <label for="vehicle1"> statisfied</label>
+    <input type="checkbox" id="vehicle2" name="vehicle2" >
+    <label for="vehicle2"> Dissatisfied</label>
+  </div>
+
+<div class="Message">
+  <h2> Message :</h2>
+      <textarea rows = "5" cols = "60" name = "description">
+          Write here...
+       </textarea>
+</div>
+<br>
+<button onclick="alertClick()" type="button" name="button" class="submit">Submit</button>
+<form>
+
+</section>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+      function alertClick(){
+        swal("Thanks!");
+      }
+   </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

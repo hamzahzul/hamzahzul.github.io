@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+*{
+  font-family: 'Odibee Sans', cursive;
+}
+body{
+  background-image: url("Sky.jpg");
+  background-size: cover;
+}
+.about{
+  padding-top:70px;
+}
+img#face{
+  width: 150px;
+  length:150px;
+}
+.personal{
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+  margin:0 20px;
+  color: #191919;
+}
+.personal h2{
+    font-family: 'Boogaloo', cursive;
+}
+.personal p{
+  font-family: 'Boogaloo', cursive;
+}
+.personal:hover{
+  box-shadow: 10px 10px 10px #120632 ;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.education{
+  border-radius: 20px;
+  transition: all 300ms ease-in-out;
+  padding:0 20px 20px;
+  margin:0 20px;
+}
+
+.education:hover{
+  box-shadow: 10px 10px 10px #120632 ;
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+table {
+  font-family: 'Futura BdCn BT', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.experience{
+  font-size: 20px;
+  border-radius: 20px;
+  transition: all 300ms ease-in-out;
+  margin: 0 20px;
+  font-family: 'Futura BdCn BT';
+}
+.experience:hover{
+  box-shadow: 10px 10px 10px #120632 ;
+  background-color: rgba(0,0,0,0.2);
+}
+.skills{
+  padding: 0 20px 20px 20px;
+  border-radius: 20px;
+  transition: all 300ms ease-in-out;
+  margin: 0 20px;
+  font-family: 'Futura BdCn BT';
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.skills:hover{
+  box-shadow: 10px 10px 10px #120632 ;
+  background-color: rgba(0,0,0,0.2);
+}
+.skills li{
+  margin: 20px 0;
+}
+.bar{
+  background: white;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px white;
+}
+.bar span{
+  height: 2px;
+  float: left;
+  background: #532D84;
+}
+.html{
+  width: 80%;
+}
+.java{
+  width: 80%;
+}
+.ctambah{
+  width: 80%;
+}
+.css{
+  width: 80%;
+}
+header
+{
+	position:absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+	position: sticky;
+}
+
+.logo
+{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+header ul
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header ul li
+{
+	list-style: none;
+	margin-left:20px;
+}
+header ul li a
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: white;
+	border-radius: 20px;
+	transition: all 300ms ease-in-out;
+  font-family: Candara;
+}
+header ul li a:hover,
+header ul li a.active
+{
+	background: white;
+	color: #8A87F4;
+}

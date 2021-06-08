@@ -1,0 +1,57 @@
+
+*{
+  font-family:'Nunito', sans-serif;
+}
+body {
+  background-image: url("wallpaper.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: 'Candara';
+}
+.header{
+  padding: 150px 0 0 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.black_font{
+ font-size: 40px;
+ font-family:'Nunito';
+
+}
+.silver_font{
+ font-size: 40px;
+ color: white;
+ font-family: 'Nunito';
+
+  }
+
+.intro{
+  font-size: 20PX;
+  color: silver;
+  text-align: center;
+}
+
+.nav ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: 2px
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a{
+  font-family: 'Candara';
+  color: grey;
+  text-decoration: none;
+  font-size: 25;
+  padding:10px 10px;
+  border-radius:20px;
+}
+.nav li a:hover,
+.nav li a:active{
+  background: white;
+}
